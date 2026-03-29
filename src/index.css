@@ -1,7 +1,10 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+/* custom animation */
 @keyframes marquee {
-  from { transform: translateX(0); }
+  from { transform: translateX(0%); }
   to { transform: translateX(-50%); }
 }
 
@@ -13,4 +16,3 @@
   display: flex;
   width: max-content;
 }
-
